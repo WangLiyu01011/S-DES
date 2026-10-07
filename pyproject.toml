@@ -1,0 +1,14 @@
+[project]
+name = "sdes-lab"
+version = "0.1.0"
+description = "信息安全导论 S-DES 第一关至第五关图形化实验程序"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.8,<7",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+pythonpath = ["."]
+
